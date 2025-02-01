@@ -1,0 +1,53 @@
+/* Style général de la modale */
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #333;
+    color: #DBC9C8;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 600px;
+    z-index: 9999;
+    font-family: 'Roboto', sans-serif; /* Police pour la modale */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    display: none; /* Par défaut, la modale est cachée */
+  }
+  
+  /* Quand la modale est visible, on l'affiche */
+  .modal.show {
+    display: block;
+  }
+  
+  /* Fond semi-transparent derrière la modale */
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9998;
+  }
+  
+  /* Style du bouton de fermeture de la modale */
+  .modal-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: #DBC9C8;
+    color: #333;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .modal-close:hover {
+    background-color: #aaa;
+  }
+  
