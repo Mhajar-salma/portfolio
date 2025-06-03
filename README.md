@@ -16,21 +16,3 @@ Le site inclut un CV, un formulaire de contact, des créations avec des images e
 
 ### Prérequis
 - Node.js et npm doivent être installés sur votre machine.
-  - Vous pouvez vérifier si Node.js est installé en exécutant `node -v` dans votre terminal.
-  - Vous pouvez installer Node.js depuis [nodejs.org](https://nodejs.org/).
-
-### Étapes d'installation
-1. Clonez le repository :
-   git clone https://github.com/Mhajar-salma/portfolio
-
-2. Allez dans le dossier du projet :
-   cd portfolio
-
-3. Installez les dépendances :
-   npm install
-
-4. Lancez le serveur de développement :
-   npm run serve
-
-Une fois l'application lancée, vous pouvez accéder au portfolio à l'adresse suivante :
-   http://localhost:8080
